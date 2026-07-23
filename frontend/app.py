@@ -6,7 +6,7 @@ st.set_page_config(page_title="Smart Farming Assistant", page_icon="🌱")
 st.title("🌱 Smart Farming Assistant")
 st.write("Upload a photo of your crop leaf to get an instant diagnosis.")
 
-BBACKEND_URL = "https://smart-farming-backend-vbv6.onrender.com"
+BACKEND_URL = "https://smart-farming-backend-vbv6.onrender.com"
 
 uploaded_file = st.file_uploader("Upload leaf image", type=["jpg", "jpeg", "png", "JPG", "JPEG", "PNG"])
 
