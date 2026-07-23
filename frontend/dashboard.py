@@ -8,7 +8,7 @@ st.set_page_config(page_title="Regional Disease Dashboard", page_icon="📍")
 st.title("📍 Regional Disease Outbreak Dashboard")
 st.write("Live view of crop disease detections across monitored regions.")
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://smart-farming-backend-vbv6.onrender.com"
 
 try:
     response = requests.get(f"{BACKEND_URL}/regional-stats")
