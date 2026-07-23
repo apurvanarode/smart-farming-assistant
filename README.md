@@ -17,6 +17,17 @@ Small farmers often lose 20-40% of crop yield to diseases that go undetected unt
 
 *(Add a screen recording or GIF here — see "What I'd Add With More Time" below for how to capture one)*
 
+## Live Demo
+
+- **Main App**: https://smart-farming-assistant-ecqstngtrunmvbfrwuazcu.streamlit.app
+- **Regional Dashboard**: https://smart-farming-assistant-mrdckoxqcig9s9hyvsnhmx.streamlit.app
+- **Backend API docs**: https://smart-farming-backend-vbv6.onrender.com/docs
+
+**Note:** Backend is hosted on Render's free tier, which spins down after ~15 minutes 
+of inactivity. The first request after idle time may take 30-60 seconds while the 
+server restarts — subsequent requests are fast. This is a free-tier hosting 
+limitation, not an application bug.
+
 ## Architecture
 [Farmer's browser]
 |
